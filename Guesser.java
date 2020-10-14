@@ -63,13 +63,12 @@ public class Guesser {
     // When you have gotten a valid reply, return it.
     do {
       reply = scan.nextLine().toLowerCase();
-      if (!reply.equals("t") || !reply.equals("y")) {
+      if (reply.equals("t") || reply.equals("f")) {
         valid = true;
       } else {
         System.err.println("You have to write one of T and F");
       }
     } while (valid == false);
-    scan.close();
     return reply;
   }
 
