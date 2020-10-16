@@ -1,0 +1,27 @@
+1. När använder man add respektive commit?
+
+Man använder add för att lägga till de filerna man har
+ lagt till, ändrat på eller tagit bort till stage:n.
+
+Sedan använder man commit för fästa stage:n till sitt respository.
+
+2. Vad är pull repektive push?
+
+pull och push används vid remote respositories.
+
+pull används för att "dra till" sig den senaste versionen av en 
+remote respository och mergar den med sin egna.
+
+push används för att "trycka upp" dina commits till ett remote respository.
+
+3. När använder man log respektive status?
+
+log används för att se historiken av commits.
+
+status används för att visa vart du är "ex. main" och visar vilka ändringar
+som har gjort och beskriver vad som behöver göras "add, commit eller push"
+
+4. Hur kan man formulera sig i sina commit-meddelanden?
+
+Man skall tänka det som en kort beskrivning av man har gjort för ändringar och
+tänka på att det kommer vara en annan människa som skall förstå.
